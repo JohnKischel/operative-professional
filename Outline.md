@@ -1,11 +1,18 @@
-# Outline Lerngruppe (60 min)
 
-### 10-15 min
+# Initialisierung:
 ___
-- Fragen zur Lerneinheiten - Projektmanagement
+### TODO
 
-- Vorstellung Projekt
+-  Anwenden der 5 Phasen  nach Burkhardt (grob)
+-  [x] Initialisierung
+-  [ ] Definition
+-  [ ] Planung
+-  [ ] Steuerung
+-  [ ] Abschluss
 
+
+Flurgespräch / Initierung / Vorstellung Projekt
+___
 Gaming Branche
 Kunden PCs
 
@@ -16,114 +23,129 @@ Anforderungen:
 	- Ein Webshop existiert bereits.
 	- Das Projekt soll innerhalb von 2 Jahren umgesetzt werden.
 
-Als Projektleiter befinden sich in einer starken Matrix Organisation.
+Als Projektleiter befinden Sie sich in einer starken Matrix Organisation.
 
 Related:
 Prince2 -> Was wie warum
+
+
+### Unternehmensstruktur
 ___
 
-### TODO
--  Anwenden der 5 Phasen  nach Burkhardt (grob)
--  [x] Initialisierung
--  [ ] Definition
--  [ ] Planung
--  [ ] Steuerung
--  [ ] Abschluss
-	
--  [ ]   Zusammenfassung schreiben für unser Smart Ziel
+
+```mermaid
+flowchart TD;
+GF --> Vertrieb;
+GF --> Technik;
+Technik --> Komplettsysteme;
+Technik --> Images;
+Vertrieb --> Webshop --> Auftragsabwicklung;
+GF --> Einkauf;
+GF --> HR;
+GF --> Controlling;
+GF --> Logistik;
+Logistik --> Wareneingang;
+Logistik --> Warenausgang;
+GF --> Finanzen;
+
+```
+
+
+
 ### Projektphasen
 ---
 
-# Initialisierung:
-___
-
-### Was
+**Was**
 Eine neue Fertigungsstrasse soll erstellt werden in dieser werden Computer installiert und zum Versand fertig gemacht. Ein Betriebsystem soll automatisiert mit Software installiert werden. Auslieferung soll von Personal für die Logistik vorbereitet werden.
 
-### Wie
+Wie
 Neues Personal, Locations müssen gemietet / gekauft werden. Logistik muss gemanaged werden.
 
-### Warum
+***Warum***
 Der Umsatz soll gesteigert werden um neue Branchen zu erschließen.
 
-### [[SMART]]
-Bewertung des Projektes nach SMART
+
+### [[SMART]] - Bewertung des Projektes nach SMART
 ___
 
-Spezifisch
-- Einführung einer neuen Produktlinie und Eröffnung eines neuen Unternehmenszweiges.
+**S**pezifisch
+- Einführung einer neuen Fertigungstraße für vorinstallierte Computer und Eröffnung eines neuen Unternehmenszweiges.
 
-Messbar
+**M**essbar
 - Der Umsatz soll zu 20% gesteigert werden um neue Branchen zu erschließen.
 
-Attraktiv
+**A**ttraktiv
 - Der Bedarf des Marktes soll gedeckt werden.
 
-Realistisch
+**R**ealistisch
 - Durch den vorhanden Webshop und zugesagten Finanzierungen kann eine Umsetzung statt finden.
 	
-Terminiert
+**T**erminiert
 - Das Ziel soll innerhalb von 2 Jahren in den normal Betrieb übergehen.
 
 
-Definition nach DIN69901
+
+>Durch die Einführung einer neuen Fertigungstraße für vorinstallierte Computer innerhalb von 2 Jahren, soll der Umsatz um min 20% gesteigert werden
+
 
 ### Ziele skizzieren
-Einmaligkeit
-Ein ähnliches Projekt existiert nicht im Unternehmen und die Einmaligkeit ist somit gegeben. 
+___
 
-Komplexität
-Die Interdisziplinarität ist durch Bereichsübergreifende
+###### Einmaligkeit
+- Ein ähnliches Projekt existiert nicht im Unternehmen und die Einmaligkeit ist somit gegeben. 
 
-Risiken
+###### Komplexität
+- Die Interdisziplinarität ist durch Bereichsübergreifende
+
+###### Risiken
 - Konkurrenz Produkte?
 
-Innovation
-? Wir die Innovation im eigenen unternehmen betrachtet oder im vergleich zur Konkurrenz.
+###### Innovation
+- Wir die Innovation im eigenen unternehmen betrachtet oder im vergleich zur Konkurrenz.
 Kunden können ihre Gaming PCs  ohne Vertrieb konfigurieren (24/7)
 
 Begrenzte Ressourcen
 
 Personal, Räumlichkeiten, Zeit
 
-### Zuständigkeiten
+
+## Zuständigkeiten
+___
+### Projektbeteiligte
+- Rechnungswesen / Finance department
+- Controlling
+- HR
+- Logistik
+- Webshop
+- Einkauf
+
 - Stakeholder Analyse
 	- Wer hat interesse
 	- Was ist Ziel für dieses Projekt,
 	- Welches Ziel verfolgen die Stakeholder.
 	- Wer investiert wieviel (Zeit,Kosten,Ressourcen) / [[Definition des Magischen Dreiecks im Projektmanagement|Magisches Dreieck]]
 
-
-### Projektbeteiligte
-- Rechnungswesen / Finance department
-- Controlling
-- 
+HR
+- Zuständig um die spätere Abteilung aus dem Projekt entstehende Abteilung mit Personal zu besetzen.
 
 Gibt es externe Sponsoren?
 Gibt es ein Steeringboard.
 
+___
+
+
+### Projektmanagment  Prozesse
+
+
+
+### FRAGEN
+___
 Wieviel Kapital steht zur Verfügung.
 
+Wie hoch ist unser Budget.
 
+Wie viele Mitarbeiter aus jeder gelisteten [[Outline#Projektbeteiligte|Abteilung]]  brauchen wir.
 
-### Projektmanagment Prozesse
+### References
 
-
-
-### Organigram
-
-```mermaid
-flowchart TD
-GF --> Vertrieb
-GF --> Technik
-Technik --> Komplettsysteme
-Technik --> Images
-GF --> Webshop --> Auftragsabwicklung
-Webshop --> Einkauf
-GF --> Controlling
-GF --> Logistik
-Logistik --> Wareneingang
-Logistik --> Warenausgang
-
-```
-
+Projektablaufplan -> Projektanbahnung.pdf S.56 
